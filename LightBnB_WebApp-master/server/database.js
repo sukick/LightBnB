@@ -63,6 +63,7 @@ const addUser =  function(user) {
   .then(res => res.rows[0])
   .catch(err => console.log("query error", err.stack))
 }
+
 exports.addUser = addUser;
 
 /// Reservations
@@ -75,6 +76,7 @@ exports.addUser = addUser;
 const getAllReservations = function(guest_id, limit = 10) {
   return getAllProperties(null, 2);
 }
+
 exports.getAllReservations = getAllReservations;
 
 /// Properties
