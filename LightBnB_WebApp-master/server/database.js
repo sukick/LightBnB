@@ -95,6 +95,7 @@ exports.getAllReservations = getAllReservations;
       console.log(err.message);
     });
 };
+
 exports.getAllProperties = getAllProperties;
 
 
